@@ -1,0 +1,21 @@
+{
+    "validCredentials":
+    {
+        "username": "username",
+        "password": "password"
+    },
+    "invalidCredentials":
+    {
+        "username": "lagibelajar",
+        "password": "admin1234"
+    },
+    "transaksi": 
+    {
+        "hariSenin": "1000000",
+        "hariSelasa": "500000",
+        "hariJumat":
+        {
+            "nilai": "9999"
+        }
+    }
+}
