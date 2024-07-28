@@ -47,7 +47,6 @@ Cypress.Commands.add('validTransactionPayBills', (getPayee,  getAccount, getAmou
 
     cy.get('input[id="sp_date"]').click()
     cy.xpath('//a[normalize-space()='+getDate+']').click()
-    cy.get('input[id="sp_description"]').type(getDate)
 
     cy.get('input[id="sp_description"]').clear()
     cy.get('input[id="sp_description"]').type(getDescription)
